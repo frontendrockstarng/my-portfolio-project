@@ -1,10 +1,8 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const RecentWorks = () => {
@@ -18,7 +16,7 @@ const RecentWorks = () => {
         <div className='worksDiv'>
             <div className='worksRow'>
                
-                    <Link to='' className='mainworkContainer'>
+                    <Link to='' className='mainworkContainer' data-aos-duration="300">
                         <div className='mainWorkDiv' data-aos='fade-down'>
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1652358228/942817135830623.Y3JvcCwyMDQ1LDE2MDAsMjU4LDA_ulfe6b.png' alt='Kaoshi P2P'/>
                             <h3>Kaoshi P2P Payment Widget</h3>
@@ -31,12 +29,12 @@ const RecentWorks = () => {
                     </Link>
                
                
-                    <Link to='' className='mainworkContainer' data-aos='fade-down'>
+                    <Link to='' className='mainworkContainer' data-aos='fade-up' data-aos-duration="600">
                         <div className='mainWorkDiv' >
-                            <img src='https://res.cloudinary.com/colt-copy/image/upload/v1652438042/c415da139261181.Y3JvcCw4MTcsNjM5LDAsMTI-removebg-preview_1_lnm89c.png' alt='Kaoshi P2P'/>
-                            <h3>FunkiesDAO Voting dApp</h3>
-                            <h4>UX Design - Visual design / Prototyping</h4>
-                            <p>Figma, Illustrator & Invision</p>
+                            <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672770036/cseerdsao-portfolio-size_gafinr.png' alt='CSEERSDAO'/>
+                            <h3>CSEERSDAO</h3>
+                            <h4>UIUX Design - Visual design / Prototyping/ / Web development</h4>
+                            <p>Figma, Illustrator, HTML, CSS & JS</p>
                             <div className='viewWorkButton'>
                             <p>View work</p> <i className="fa-solid fa-arrow-up viewWorkArrow"></i>
                             </div>
@@ -46,9 +44,9 @@ const RecentWorks = () => {
             </div>
             <div className='worksRow'>
             
-                    <Link to='' className='mainworkContainer' data-aos='fade-down'>
+                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="500">
                         <div className='mainWorkDiv' >
-                            <img src='https://res.cloudinary.com/colt-copy/image/upload/v1652455065/aba290143671883.Y3JvcCwxMDY1LDgzMyw3MjcsMTQ1_rcbijq.png' alt='Kaoshi Landing Page'id='kaoshiLanding'/>
+                            <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672771213/Kaoshi-portfolio-size_bjsdbp.png' alt='Kaoshi Landing Page'id='kaoshiLanding'/>
                             <h3>Kaoshi Network</h3>
                             <h4>UX Design - Visual design / Information architecture</h4>
                             <p>Figma, Illustrator & Principle</p>
@@ -59,7 +57,7 @@ const RecentWorks = () => {
                     </Link>
                
             
-                    <Link to='' className='mainworkContainer' data-aos='fade-down'>
+                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="350">
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1652438447/56f13c135830429.Y3JvcCw5MDAsNzAzLDAsMg_gf3gjm.png' alt='Kaoshi P2P'/>
                             <h3>Kaoshi Invoice Widget</h3>

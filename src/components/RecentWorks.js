@@ -44,7 +44,7 @@ const RecentWorks = () => {
             </div>
             <div className='worksRow'>
             
-                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="500">
+                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="700">
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672771213/Kaoshi-portfolio-size_bjsdbp.png' alt='Kaoshi Landing Page'id='kaoshiLanding'/>
                             <h3>Kaoshi Network</h3>
@@ -59,10 +59,10 @@ const RecentWorks = () => {
             
                     <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="350">
                         <div className='mainWorkDiv' >
-                            <img src='https://res.cloudinary.com/colt-copy/image/upload/v1652438447/56f13c135830429.Y3JvcCw5MDAsNzAzLDAsMg_gf3gjm.png' alt='Kaoshi P2P'/>
-                            <h3>Kaoshi Invoice Widget</h3>
-                            <h4>UX Design - Visual design / Interaction design</h4>
-                            <p>Adobe XD, Illustrator & Protopie</p>
+                            <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672775800/Mide-portfolio-snapshot_urkglj.png' alt='Kaoshi P2P'/>
+                            <h3>Mide-portfolio</h3>
+                            <h4>UX Design - Visual design / Interaction design / Web development</h4>
+                            <p>Adobe XD, Illustrator, HTML, CSS & JS</p>
                             <div className='viewWorkButton'>
                             <p>View work</p> <i className="fa-solid fa-arrow-up viewWorkArrow"></i>
                             </div>

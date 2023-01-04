@@ -1,7 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import { useEffect } from 'react';
-import AOS from "aos";
+import {Link } from 'react-router-dom';
 import "aos/dist/aos.css";
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext,DotGroup } from 'pure-react-carousel';

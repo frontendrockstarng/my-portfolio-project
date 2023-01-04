@@ -1,8 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import App from '../App';
+import {  Link } from 'react-router-dom';
 import TopHeader from '../components/TopHeader';
-import LandingPageMenu from '../components/LandingPageMenu';
 import AboutPageMenu from '../components/AboutPageMenu';
 import FooterSection from '../components/FooterSection';
 
@@ -35,7 +33,7 @@ const About = () => {
             <div className='aboutImgBtn'>
                 <img src='https://res.cloudinary.com/colt-copy/image/upload/v1653650343/Group_73_ai08yt.png' alt='Daniel Adesanya' data-aos='fade-down'/>
                 <h2>Interests & Passions</h2>
-                <ul role='list' className='interstList'>
+                <ul  className='interstList'>
                     <li data-icon='🎭'>Acting</li>
                     <li data-icon='🎸'>Playing the guitar</li>
                     <li data-icon='🃏'>NFTs</li>

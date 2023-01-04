@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import AOS from "aos";
+import {Link } from 'react-router-dom';
 import "aos/dist/aos.css";
  const WorkPageMenu = () => {
     const [hideMenu, showMenu] = useState(true)

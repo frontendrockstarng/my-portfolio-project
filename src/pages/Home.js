@@ -5,7 +5,7 @@ import { useEffect,useState, Fragment} from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import RecentWorks from '../components/RecentWorks';
-import SliderSection from '../components/SliderSection';
+// import SliderSection from '../components/SliderSection';
 import FooterSection from '../components/FooterSection';
 import Lottie from 'react-lottie';
 import Homepreloader from '../homepreloader.json'
@@ -71,7 +71,7 @@ const Home = () => {
             </div>
           </div>
           <RecentWorks />
-          <SliderSection />
+          {/* <SliderSection /> */}
           <FooterSection />
         </Fragment>
         

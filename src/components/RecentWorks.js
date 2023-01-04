@@ -29,7 +29,7 @@ const RecentWorks = () => {
                     </Link>
                
                
-                    <Link to='' className='mainworkContainer' data-aos='fade-up' data-aos-duration="600">
+                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="600">
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672770036/cseerdsao-portfolio-size_gafinr.png' alt='CSEERSDAO'/>
                             <h3>CSEERSDAO</h3>
@@ -44,7 +44,7 @@ const RecentWorks = () => {
             </div>
             <div className='worksRow'>
             
-                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="700">
+                    <Link to='' className='mainworkContainer' data-aos='fade-up' data-aos-duration="700">
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672771213/Kaoshi-portfolio-size_bjsdbp.png' alt='Kaoshi Landing Page'id='kaoshiLanding'/>
                             <h3>Kaoshi Network</h3>

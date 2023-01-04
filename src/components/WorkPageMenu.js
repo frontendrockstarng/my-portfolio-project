@@ -43,7 +43,7 @@ import "aos/dist/aos.css";
         </div>
         <div className='desktopMenuLinkDiv'>
             
-                <Link to='/work' className='fontWhite desktopLinkDiv activePage' ><span >Work</span>
+                <Link to='' className='fontWhite desktopLinkDiv activePage' ><span >Work</span>
                  <div className='arrowDiv'><i className='fa-solid fa-arrow-up'></i></div>
                 </Link>
             

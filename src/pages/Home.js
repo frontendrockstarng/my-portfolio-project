@@ -71,7 +71,6 @@ const Home = () => {
             </div>
           </div>
           <RecentWorks />
-          {/* <SliderSection /> */}
           <FooterSection />
         </Fragment>
         

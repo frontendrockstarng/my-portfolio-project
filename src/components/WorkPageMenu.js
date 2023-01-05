@@ -36,7 +36,7 @@ import "aos/dist/aos.css";
         </div>
         <div className='desktopMenuLinkDiv'>
             
-                <Link to='' className='fontWhite desktopLinkDiv '  ><span >Home</span>
+                <Link to='/' className='fontWhite desktopLinkDiv '  ><span >Home</span>
                  <div className='arrowDiv'><i className='fa-solid fa-arrow-up'></i></div>
                 </Link>
             
@@ -98,7 +98,7 @@ import "aos/dist/aos.css";
     <div className='desktopMenu'>
         <div className='desktopMenuLinkDiv'>
             
-                <Link to='/work' className='fontWhite desktopLinkDiv aboutActive' ><span >Work</span>
+                <Link to='' className='fontWhite desktopLinkDiv aboutActive' ><span >Work</span>
                  <div className='arrowDiv'><i className='fa-solid fa-arrow-up'></i></div>
                 </Link>
             

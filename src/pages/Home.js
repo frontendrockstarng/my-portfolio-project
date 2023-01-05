@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div>
       {
-        loading ? <Lottie options={defaultOptions} width={1000}/>
+        loading ? <div className='lottieLoaderDiv'><Lottie options={defaultOptions} width={1000}/></div>
         :
         <Fragment>
               <LandingPageHeader />

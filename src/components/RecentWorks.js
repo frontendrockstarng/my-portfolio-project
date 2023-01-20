@@ -27,7 +27,7 @@ const RecentWorks = () => {
                             </div>
                         </div>
                     </a>
-                    <a href='cseersdao.com' className='mainworkContainer' data-aos='fade-down' data-aos-duration="600" target='_blank'>
+                    <a href='https://cseersdao.com/' className='mainworkContainer' data-aos='fade-down' data-aos-duration="600" target='_blank'>
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672770036/cseerdsao-portfolio-size_gafinr.png' alt='CSEERSDAO'/>
                             <h3>CSEERSDAO</h3>

@@ -69,7 +69,7 @@ import { Workpreloader } from './Workpreloader';
                             </div>
                         </div>
                     </a>
-                    <a href='cseersdao.com' className='mainworkContainer' data-aos='fade-down' data-dev target='_blank'>
+                    <a href='https://cseersdao.com/' className='mainworkContainer' data-aos='fade-down' data-dev target='_blank'>
                     <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672855440/cseerdsao-portfolio-size-svg_nzaird.svg' alt='CSEERSDAO'/>
                             <h3>CSEERSDAO</h3>

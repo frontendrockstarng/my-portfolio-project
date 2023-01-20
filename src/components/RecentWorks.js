@@ -16,7 +16,7 @@ const RecentWorks = () => {
         <div className='worksDiv'>
             <div className='worksRow'>
                
-                    <Link to='' className='mainworkContainer' data-aos-duration="300">
+                    <a href='https://www.behance.net/gallery/135830623/The-Redesigning-of-Kaoshi-P2P-Payment-Widget' className='mainworkContainer' data-aos-duration="300" target='_blank'>
                         <div className='mainWorkDiv' data-aos='fade-down'>
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1652358228/942817135830623.Y3JvcCwyMDQ1LDE2MDAsMjU4LDA_ulfe6b.png' alt='Kaoshi P2P'/>
                             <h3>Kaoshi P2P Payment Widget</h3>
@@ -26,10 +26,8 @@ const RecentWorks = () => {
                             <p>View work</p> <i className="fa-solid fa-arrow-up viewWorkArrow"></i>
                             </div>
                         </div>
-                    </Link>
-               
-               
-                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="600">
+                    </a>
+                    <a href='cseersdao.com' className='mainworkContainer' data-aos='fade-down' data-aos-duration="600" target='_blank'>
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672770036/cseerdsao-portfolio-size_gafinr.png' alt='CSEERSDAO'/>
                             <h3>CSEERSDAO</h3>
@@ -39,12 +37,10 @@ const RecentWorks = () => {
                             <p>View work</p> <i className="fa-solid fa-arrow-up viewWorkArrow"></i>
                             </div>
                         </div>
-                    </Link>
-               
+                    </a>
             </div>
             <div className='worksRow'>
-            
-                    <Link to='' className='mainworkContainer' data-aos='fade-up' data-aos-duration="700">
+                    <a href='https://www.figma.com/file/CWUoVWszRure4Vt4e0FrQB/Kaoshi-Redesign' className='mainworkContainer' data-aos='fade-up' data-aos-duration="700" target='_blank'>
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672771213/Kaoshi-portfolio-size_bjsdbp.png' alt='Kaoshi Landing Page'id='kaoshiLanding'/>
                             <h3>Kaoshi Network</h3>
@@ -54,10 +50,8 @@ const RecentWorks = () => {
                             <p>View work</p> <i className="fa-solid fa-arrow-up viewWorkArrow"></i>
                             </div>
                         </div>
-                    </Link>
-               
-            
-                    <Link to='' className='mainworkContainer' data-aos='fade-down' data-aos-duration="350">
+                    </a>
+                    <a href='https://mide-clp.netlify.app/' className='mainworkContainer' data-aos='fade-down' data-aos-duration="350" target='_blank'>
                         <div className='mainWorkDiv' >
                             <img src='https://res.cloudinary.com/colt-copy/image/upload/v1672775800/Mide-portfolio-snapshot_urkglj.png' alt='Kaoshi P2P'/>
                             <h3>Mide-portfolio</h3>
@@ -67,7 +61,7 @@ const RecentWorks = () => {
                             <p>View work</p> <i className="fa-solid fa-arrow-up viewWorkArrow"></i>
                             </div>
                         </div>
-                    </Link>
+                    </a>
                
             </div>
             
